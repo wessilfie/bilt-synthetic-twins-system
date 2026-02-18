@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Synthetic Twins — Could AI Have Predicted Bilt's Launch Disaster?</title>
+  <meta name="description" content="A framework for using Reddit data and GenAI to build synthetic customer personas that predict product launch reactions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- ===== SECTION 1: HERO ===== -->
+  <section id="hero" class="section hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Columbia Business School | GenAI Meets Marketing Data</p>
+      <h1 class="hero-title">Could AI Have Predicted<br>Bilt's Launch Disaster?</h1>
+      <p class="hero-subtitle">A framework for using Reddit data and generative AI to build synthetic customer personas that predict product launch reactions</p>
+      <p class="hero-author">An investigative analysis and report by Will Essilfie</p>
+      <div class="scroll-indicator">
+        <span>Scroll to explore</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 2: I WAS THERE ===== -->
+  <section id="disaster" class="section">
+    <div class="container">
+      <p class="section-label">I Was There</p>
+      <h2 class="section-title reveal">The Night Bilt 2.0 Launched</h2>
+
+      <div class="content-block reveal">
+        <p>I'm going to tell you a story.</p>
+        <p>In January 2026, I got invited to the Bilt 2.0 launch event at One World Trade Center. Lavish venue, open bar, city views, the whole production. Ankur Jain took the stage and unveiled the new cards. Three tiers. New currency. A complete reimagining of the product.</p>
+        <p>I'd been a Bilt cardholder for years. I liked the card. The promise was simple and it worked: earn points on rent, for free. That simplicity is what made it easy to recommend to every renter I knew.</p>
+      </div>
+
+      <!-- Photo Grid -->
+      <div class="photo-grid reveal">
+        <div class="photo-card">
+          <img src="/img/will-ankur.JPG" alt="Will Essilfie with Ankur Jain, CEO of Bilt Rewards, at the Bilt 2.0 launch event" class="event-photo" />
+          <p class="photo-caption">With Ankur Jain, CEO of Bilt, at the 2.0 launch event. One World Trade Center, January 2026.</p>
+        </div>
+        <div class="photo-card">
+          <img src="/img/will-bryan.JPG" alt="Will Essilfie with Brian Kelly, Founder of The Points Guy, at the Bilt 2.0 launch event" class="event-photo" />
+          <p class="photo-caption">With Brian Kelly, Founder of The Points Guy. Even in a room of Bilt's "close friends," the skepticism was audible.</p>
+        </div>
+      </div>
+
+      <div class="content-block reveal">
+        <p>But something felt off that night. Even in a room full of Bilt's closest friends and partners, I could hear the murmuring. People turning to each other after the presentation, eyebrows raised, doing the math out loud. "Wait, there's a fee on rent now?" "Why would I pay $495 for this?" The new cards looked beautiful. The value proposition did not.</p>
+        <p>I left that event unsure what to think. I'd told many of my friends to get a Bilt card. Now I wasn't sure it made sense to get a 2.0 card myself.</p>
+        <p>The next day I went online and saw how negatively people had reacted. The r/biltrewards subreddit had gone from jovial to irate. Even as Bilt announced changes to walk back some of the most controversial decisions, I could see they'd lost a lot of goodwill. The community became less forgiving of mistakes, reticent to move their spend to these new cards. And the math told the real story: Bilt kept saying "free points on rent," but their new 4% Bilt Cash earn rate on spend meant that to unlock enough Bilt Cash to offset the rent fee, you'd effectively need to spend roughly 75% of your rent or mortgage cost on a Bilt card. That's not free. That's a loyalty tax disguised as a rewards program.</p>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>What Bilt 2.0 actually changed</h3>
+        <p><strong>Bilt Rewards</strong> had a simple, powerful promise: earn points on rent for free. No annual fee. No transaction fee. In a market where renters were invisible to the credit card industry, Bilt gave them a reason to care.</p>
+        <p>Bilt 2.0 replaced that single no-fee card with a three-tier system: <strong>Blue ($0)</strong>, <strong>Obsidian ($95)</strong>, and <strong>Palladium ($495)</strong>. They introduced "Bilt Cash," a new currency that required everyday spending to unlock housing rewards. And the 3% rent processing fee? That was the match that lit the fire.</p>
+      </div>
+
+      <!-- Timeline -->
+      <div class="timeline reveal">
+        <div class="timeline-line"></div>
+        <div class="timeline-item" data-step="1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jan 2026</span>
+            <p>Bilt 2.0 launches at One World Trade Center. Even in the room, attendees express skepticism about the new tiers and rent fee.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-step="2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Within hours</span>
+            <p>Reddit, Twitter, and credit card communities erupt. NerdWallet publishes: <em>"Bilt 2.0 Promises Rewards, Delivers Confusion."</em></p>
+          </div>
+        </div>
+        <div class="timeline-item" data-step="3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">48 hours later</span>
+            <p>CEO Ankur Jain emails all Bilt members: <em>"That's on me, and we're fixing it."</em> Key decisions are reversed.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-step="4">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Feb 2026</span>
+            <p>Bloomberg covers it as a cautionary tale. Bilt introduces a simpler earning path and removes the annual cap on housing rewards.</p>
+          </div>
+        </div>
+      </div>
+
+      <blockquote class="pull-quote reveal">
+        <p>"I've also seen real and reasonable confusion about the new value proposition, especially around rent and mortgage points. That's on me, and we're fixing it."</p>
+        <cite>Ankur Jain, CEO of Bilt Rewards</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 3: THE QUESTION ===== -->
+  <section id="question" class="section">
+    <div class="container">
+      <p class="section-label">The Question</p>
+      <h2 class="section-title reveal">Could this have been predicted<br>before launch?</h2>
+
+      <div class="content-block reveal">
+        <p>That question stuck with me after the launch event. Not just "could Bilt have seen this coming," but something bigger: can companies use <strong>AI and public community data</strong> to test how customers will react before they ship? Not after the CEO apology. Before the product leaves the building.</p>
+        <p>For my GenAI Meets Marketing Data class at Columbia Business School, I decided to find out. This project tests two hypotheses:</p>
+      </div>
+
+      <div class="hypothesis-cards reveal">
+        <div class="glass-card">
+          <span class="card-number">Hypothesis 1</span>
+          <p>Large language models (like Claude and ChatGPT) combined with public social media data can create synthetic personas that <strong>actually represent</strong> real customer bases.</p>
+        </div>
+        <div class="glass-card">
+          <span class="card-number">Hypothesis 2</span>
+          <p>Those personas can <strong>predict customer reactions</strong> to product launches more cheaply and faster than traditional user research.</p>
+        </div>
+      </div>
+
+      <!-- Card Comparison + Interactive Quiz -->
+      <div class="quiz-container reveal" id="quiz-bilt">
+        <h3 class="quiz-title">You have the Bilt 1.0 card. Now pick your 2.0.</h3>
+        <p class="quiz-prompt">Here's what you currently have. Below it are the three new tiers replacing your card. Which would you choose?</p>
+
+        <!-- Bilt 1.0 Card -->
+        <div class="bilt-card-showcase old-card">
+          <div class="bilt-card-header">
+            <span class="bilt-card-name">Bilt Mastercard (1.0)</span>
+            <span class="bilt-card-fee">$0 annual fee</span>
+          </div>
+          <ul class="bilt-card-perks">
+            <li><strong>1x</strong> on rent (free, no processing fee, up to 100K pts/yr)</li>
+            <li><strong>3x</strong> on dining</li>
+            <li><strong>2x</strong> on travel</li>
+            <li><strong>1x</strong> on everything else</li>
+            <li>Make 5 transactions/month to earn points</li>
+            <li>No foreign transaction fees</li>
+            <li>Transfer partners: Hyatt, AA, United, Air Canada, and more</li>
+          </ul>
+        </div>
+
+        <p class="quiz-prompt" style="margin-top:32px;margin-bottom:24px;font-weight:600;color:var(--text-primary);font-size:18px;">Now Bilt replaces your card with three new tiers:</p>
+
+        <!-- Bilt 2.0 Tiers as quiz options -->
+        <div class="quiz-options bilt-tier-options">
+          <button class="quiz-option bilt-tier-option" data-answer="blue">
+            <div class="bilt-card-header">
+              <span class="bilt-card-name">Bilt Blue</span>
+              <span class="bilt-card-fee">$0/yr</span>
+            </div>
+            <ul class="bilt-card-perks">
+              <li><strong>1x</strong> on everything</li>
+              <li><strong>4%</strong> back in Bilt Cash on spend <em>or</em> up to 1.25x on housing</li>
+              <li>No transaction fees on housing</li>
+              <li>$100 Bilt Cash sign-up bonus</li>
+            </ul>
+          </button>
+          <button class="quiz-option bilt-tier-option" data-answer="obsidian">
+            <div class="bilt-card-header">
+              <span class="bilt-card-name">Bilt Obsidian</span>
+              <span class="bilt-card-fee">$95/yr</span>
+            </div>
+            <ul class="bilt-card-perks">
+              <li><strong>3x</strong> dining/grocery, <strong>2x</strong> travel, <strong>1x</strong> everything</li>
+              <li><strong>4%</strong> back in Bilt Cash on spend <em>or</em> up to 1.25x on housing</li>
+              <li>$100 Bilt Travel Hotel credit</li>
+              <li>Trip delay insurance</li>
+            </ul>
+          </button>
+          <button class="quiz-option bilt-tier-option" data-answer="palladium">
+            <div class="bilt-card-header">
+              <span class="bilt-card-name">Bilt Palladium</span>
+              <span class="bilt-card-fee">$495/yr</span>
+            </div>
+            <ul class="bilt-card-perks">
+              <li><strong>2x</strong> on everything</li>
+              <li><strong>4%</strong> back in Bilt Cash on spend <em>or</em> up to 1.25x on housing</li>
+              <li>$400 Bilt Travel Hotel credit</li>
+              <li>$200 Bilt Cash annually, Gold Status</li>
+            </ul>
+          </button>
+          <button class="quiz-option bilt-tier-option" data-answer="none">
+            <div class="bilt-card-header">
+              <span class="bilt-card-name">None</span>
+              <span class="bilt-card-fee">I'd leave Bilt</span>
+            </div>
+            <ul class="bilt-card-perks">
+              <li>Cancel and move spend to another card</li>
+            </ul>
+          </button>
+        </div>
+
+        <div class="quiz-result" id="quiz-bilt-result">
+          <div class="quiz-result-inner">
+            <h4>Here's what the synthetic twins chose:</h4>
+            <div class="quiz-stats">
+              <div class="quiz-stat">
+                <span class="quiz-stat-number">7</span>
+                <span class="quiz-stat-label">chose Blue (down from 12 after Reddit)</span>
+              </div>
+              <div class="quiz-stat">
+                <span class="quiz-stat-number">0</span>
+                <span class="quiz-stat-label">chose Obsidian or Palladium</span>
+              </div>
+              <div class="quiz-stat">
+                <span class="quiz-stat-number">23</span>
+                <span class="quiz-stat-label">chose "None" (would leave Bilt)</span>
+              </div>
+            </div>
+            <p class="quiz-result-note">The average excitement score was <strong>2.07 out of 5</strong>. 70% rated Bilt 2.0 negatively and 57% called the rent fee a deal-breaker. The synthetic twins predicted exactly the backlash that happened. Keep reading to see how they were built and why the predictions held up.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 4: WHAT ARE SYNTHETIC TWINS? ===== -->
+  <section id="synthetic-twins" class="section">
+    <div class="container">
+      <p class="section-label">The Framework</p>
+      <h2 class="section-title reveal">What Are Synthetic Twins?</h2>
+
+      <div class="content-block reveal">
+        <p>Here's the core idea. Take thousands of real Reddit posts from credit card communities. Feed them to an AI. Ask it to build detailed customer personas grounded in how real people actually talk about these products: their frustrations, their spending habits, their deal-breakers.</p>
+        <p>Then interview those personas. Present them with a product scenario they've never seen before and ask: how would you react?</p>
+        <p>Think of it as a simulated focus group. Thirty distinct individuals, each with a coherent backstory, financial situation, and set of values drawn from real community data. Not generic chatbot outputs. Actual synthetic people with opinions.</p>
+      </div>
+
+      <!-- Pipeline Diagram -->
+      <div class="pipeline reveal">
+        <div class="pipeline-step" data-step="1">
+          <div class="pipeline-icon">&#128218;</div>
+          <h4>Collect</h4>
+          <p>13,073 posts from Reddit credit card communities (2024-2025)</p>
+        </div>
+        <div class="pipeline-arrow">&rarr;</div>
+        <div class="pipeline-step" data-step="2">
+          <div class="pipeline-icon">&#9874;</div>
+          <h4>Filter</h4>
+          <p>Select high-signal posts by date, topic, and community engagement</p>
+        </div>
+        <div class="pipeline-arrow">&rarr;</div>
+        <div class="pipeline-step" data-step="3">
+          <div class="pipeline-icon">&#128100;</div>
+          <h4>Generate</h4>
+          <p>Build 60 personas with real quotes, diverse demographics, and verified details</p>
+        </div>
+        <div class="pipeline-arrow">&rarr;</div>
+        <div class="pipeline-step" data-step="4">
+          <div class="pipeline-icon">&#127908;</div>
+          <h4>Interview</h4>
+          <p>Present product scenarios and collect quantitative scores + qualitative reactions</p>
+        </div>
+        <div class="pipeline-arrow">&rarr;</div>
+        <div class="pipeline-step" data-step="5">
+          <div class="pipeline-icon">&#128200;</div>
+          <h4>Predict</h4>
+          <p>Aggregate results into segment-level insights and directional forecasts</p>
+        </div>
+      </div>
+
+      <!-- Persona Carousel -->
+      <h3 class="subsection-title reveal">Meet the Personas</h3>
+      <div class="content-block reveal">
+        <p>We built personas from three different Reddit communities to get diversity of thought, community size, and user backgrounds: <strong>r/biltrewards</strong> (Bilt users), <strong>r/amex</strong> (American Express users), and <strong>r/Venturex</strong> (Capital One Venture X users). Each persona is rooted in real posts, real frustrations, and real product relationships.</p>
+      </div>
+
+      <!-- Community filter tabs -->
+      <div class="carousel-controls reveal">
+        <button class="carousel-filter active" data-filter="all">All Communities</button>
+        <button class="carousel-filter" data-filter="bilt">r/biltrewards</button>
+        <button class="carousel-filter" data-filter="amex">r/amex</button>
+        <button class="carousel-filter" data-filter="venturex">r/Venturex</button>
+      </div>
+
+      <div class="persona-carousel reveal" id="persona-carousel">
+        <!-- Bilt: Marcus Chen -->
+        <div class="persona-card" data-community="bilt">
+          <div class="persona-brand-label">r/biltrewards</div>
+          <div class="persona-header">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Marcus Chen" class="persona-photo" />
+            <div>
+              <div class="persona-name">Marcus Chen</div>
+              <p class="persona-meta">Urban Planner, ~30 | $70-80K</p>
+            </div>
+          </div>
+          <div class="persona-details">
+            <div class="persona-detail-row"><span class="detail-label">Credit Score</span><span class="detail-value">Good (700-749)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Primary Card</span><span class="detail-value">Bilt Mastercard</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Cares About</span><span class="detail-value">Earning points on $2K/mo rent</span></div>
+          </div>
+          <div class="persona-quote"><p>"With the Bilt Mastercard, I've officially done it. All expenses are now made with credit cards. Rent was the only thing I wasn't earning points on."</p></div>
+        </div>
+
+        <!-- Bilt: Sarah Mitchell -->
+        <div class="persona-card" data-community="bilt">
+          <div class="persona-brand-label">r/biltrewards</div>
+          <div class="persona-header">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Mitchell" class="persona-photo" />
+            <div>
+              <div class="persona-name">Sarah Mitchell</div>
+              <p class="persona-meta">Marketing Manager, ~33 | $85-95K</p>
+            </div>
+          </div>
+          <div class="persona-details">
+            <div class="persona-detail-row"><span class="detail-label">Credit Score</span><span class="detail-value">Excellent (750+)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Primary Card</span><span class="detail-value">Chase Sapphire Preferred</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Cares About</span><span class="detail-value">No-fee rent rewards + transfer partners</span></div>
+          </div>
+          <div class="persona-quote"><p>"Unpopular opinion but I think people are asking too much from a free card that gives you points on rent."</p></div>
+        </div>
+
+        <!-- Bilt: Kevin Okafor -->
+        <div class="persona-card" data-community="bilt">
+          <div class="persona-brand-label">r/biltrewards</div>
+          <div class="persona-header">
+            <img src="https://randomuser.me/api/portraits/men/83.jpg" alt="Kevin Okafor" class="persona-photo" />
+            <div>
+              <div class="persona-name">Kevin Okafor</div>
+              <p class="persona-meta">Civil Engineer, ~31 | $90-100K</p>
+            </div>
+          </div>
+          <div class="persona-details">
+            <div class="persona-detail-row"><span class="detail-label">Credit Score</span><span class="detail-value">Good (700-749)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Primary Card</span><span class="detail-value">Chase Freedom Unlimited</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Cares About</span><span class="detail-value">Saving points for future homeownership</span></div>
+          </div>
+          <div class="persona-quote"><p>"Congrats on the new home! Stay tuned though... we're working on points on mortgage payments!"</p></div>
+        </div>
+
+        <!-- Amex: Aisha Patel -->
+        <div class="persona-card" data-community="amex">
+          <div class="persona-brand-label">r/amex</div>
+          <div class="persona-header">
+            <img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Aisha Patel" class="persona-photo" />
+            <div>
+              <div class="persona-name">Aisha Patel</div>
+              <p class="persona-meta">Product Manager, ~35 | $100-150K</p>
+            </div>
+          </div>
+          <div class="persona-details">
+            <div class="persona-detail-row"><span class="detail-label">Credit Score</span><span class="detail-value">Excellent (750+)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Card Stack</span><span class="detail-value">Amex Gold + Venture X</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Cares About</span><span class="detail-value">Multi-ecosystem value optimization</span></div>
+          </div>
+          <div class="persona-quote"><p>"Amex needs to step up their offers. I don't know how sustainable it is for Capital One to hand out miles like hotcakes."</p></div>
+        </div>
+
+        <!-- Amex: William Harrington -->
+        <div class="persona-card" data-community="amex">
+          <div class="persona-brand-label">r/amex</div>
+          <div class="persona-header">
+            <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="William Harrington" class="persona-photo" />
+            <div>
+              <div class="persona-name">William Harrington</div>
+              <p class="persona-meta">Semi-Retired Attorney, ~60 | $150-200K</p>
+            </div>
+          </div>
+          <div class="persona-details">
+            <div class="persona-detail-row"><span class="detail-label">Credit Score</span><span class="detail-value">Excellent (750+)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Primary Card</span><span class="detail-value">Amex Platinum (since the 1990s)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Cares About</span><span class="detail-value">Premium service, not coupon books</span></div>
+          </div>
+          <div class="persona-quote"><p>"I know they wouldn't do this today, but I wanted to share why I have been a loyal Amex customer in my adulthood from my first card. I wish the service was the same today."</p></div>
+        </div>
+
+        <!-- Amex: Deshawn Mitchell -->
+        <div class="persona-card" data-community="amex">
+          <div class="persona-brand-label">r/amex</div>
+          <div class="persona-header">
+            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Deshawn Mitchell" class="persona-photo" />
+            <div>
+              <div class="persona-name">Deshawn Mitchell</div>
+              <p class="persona-meta">Junior Financial Analyst, ~25 | $55-75K</p>
+            </div>
+          </div>
+          <div class="persona-details">
+            <div class="persona-detail-row"><span class="detail-label">Credit Score</span><span class="detail-value">Good (700-749)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Primary Card</span><span class="detail-value">Amex Gold (first premium card)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Cares About</span><span class="detail-value">Building points for first aspirational trip</span></div>
+          </div>
+          <div class="persona-quote"><p>"This is absolutely insane value for year 1."</p></div>
+        </div>
+
+        <!-- VX: Marcus Rivera -->
+        <div class="persona-card" data-community="venturex">
+          <div class="persona-brand-label">r/Venturex</div>
+          <div class="persona-header">
+            <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="Marcus Rivera" class="persona-photo" />
+            <div>
+              <div class="persona-name">Marcus Rivera</div>
+              <p class="persona-meta">Marketing Coordinator, ~32 | $90-100K</p>
+            </div>
+          </div>
+          <div class="persona-details">
+            <div class="persona-detail-row"><span class="detail-label">Credit Score</span><span class="detail-value">Good (700-749)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Primary Card</span><span class="detail-value">Capital One Venture X</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Cares About</span><span class="detail-value">Lounge access without Platinum prices</span></div>
+          </div>
+          <div class="persona-quote"><p>"Me in the DIA Capital One lounge getting full, buzzed and relaxed before boarding the middle seat of a Frontier flight."</p></div>
+        </div>
+
+        <!-- VX: Amanda Reyes -->
+        <div class="persona-card" data-community="venturex">
+          <div class="persona-brand-label">r/Venturex</div>
+          <div class="persona-header">
+            <img src="https://randomuser.me/api/portraits/women/37.jpg" alt="Amanda Reyes" class="persona-photo" />
+            <div>
+              <div class="persona-name">Amanda Reyes</div>
+              <p class="persona-meta">HR Manager, ~34 | $95-105K</p>
+            </div>
+          </div>
+          <div class="persona-details">
+            <div class="persona-detail-row"><span class="detail-label">Credit Score</span><span class="detail-value">Good (700-749)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Primary Card</span><span class="detail-value">Capital One Venture X</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Cares About</span><span class="detail-value">Customer service and insurance claims</span></div>
+          </div>
+          <div class="persona-quote"><p>"Capital One sent me a wedding gift. The rep approved my cell phone claim overnight. That personal touch is what I'd be giving up for Resy gift cards."</p></div>
+        </div>
+
+        <!-- VX: Derek Simmons -->
+        <div class="persona-card" data-community="venturex">
+          <div class="persona-brand-label">r/Venturex</div>
+          <div class="persona-header">
+            <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="Derek Simmons" class="persona-photo" />
+            <div>
+              <div class="persona-name">Derek Simmons</div>
+              <p class="persona-meta">E-commerce Analyst, ~27 | $65-75K</p>
+            </div>
+          </div>
+          <div class="persona-details">
+            <div class="persona-detail-row"><span class="detail-label">Credit Score</span><span class="detail-value">Fair (650-699)</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Primary Card</span><span class="detail-value">Capital One Venture X</span></div>
+            <div class="persona-detail-row"><span class="detail-label">Cares About</span><span class="detail-value">Capital One Shopping portal deals</span></div>
+          </div>
+          <div class="persona-quote"><p>"Capital One Shopping insane deal. 30% cashback on my Qatar Airways purchase? I earned $250 in rewards from one purchase."</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 5: THE RUMORS & INTERVIEW SCENARIOS ===== -->
+  <section id="rumors" class="section">
+    <div class="container">
+      <p class="section-label">The Setup</p>
+      <h2 class="section-title reveal">Rumors: Two Launches Approaching</h2>
+
+      <div class="content-block reveal">
+        <p>In late 2025, both Bilt and Amex were rumored to be refreshing their flagship cards. Reddit was buzzing. Leaked survey screenshots, speculation threads, anxiety about upcoming changes. I collected this pre-launch data and built the synthetic personas from it.</p>
+        <p>Then I presented each persona with the actual product scenarios and asked them to react. The interview had two rounds:</p>
+      </div>
+
+      <div class="hypothesis-cards reveal">
+        <div class="glass-card">
+          <span class="card-number">Round 1: Individual Reaction</span>
+          <p>Each persona sees the product announcement for the first time and reacts based solely on their own values, financial situation, and card relationships. No outside influence.</p>
+        </div>
+        <div class="glass-card">
+          <span class="card-number">Round 2: Social Influence</span>
+          <p>The same personas are shown real Reddit posts discussing each product. Then they answer the same questions again. This measures how community conversation shifts individual opinion.</p>
+        </div>
+      </div>
+
+      <h3 class="subsection-title reveal">What the personas reacted to</h3>
+      <p class="content-block reveal">Each persona received a detailed product scenario describing the rumored changes. Here are the two scenarios presented:</p>
+
+      <div class="scenario-cards reveal">
+        <div class="scenario-card">
+          <h4>Bilt 2.0 Scenario</h4>
+          <ul class="scenario-changes">
+            <li>Single card replaced by three tiers: Blue ($0), Obsidian ($95), Palladium ($495)</li>
+            <li>New "Bilt Cash" currency for everyday spending</li>
+            <li>3% processing fee on rent payments</li>
+            <li>Migration from Wells Fargo to Cardless platform</li>
+            <li>Dining partnerships and neighborhood rewards restructured</li>
+          </ul>
+          <div class="scenario-fee">3% rent fee</div>
+        </div>
+        <div class="scenario-card">
+          <h4>Amex Platinum Refresh Scenario</h4>
+          <ul class="scenario-changes">
+            <li>Annual fee increases from $695 to $895</li>
+            <li>$600 hotel credit (tripled from $200)</li>
+            <li>$400 Resy dining credit (new)</li>
+            <li>$120 Uber One credit, $300 digital entertainment credit</li>
+            <li>New Lululemon, Oura Ring partnerships</li>
+          </ul>
+          <div class="scenario-fee">$895/yr</div>
+        </div>
+      </div>
+
+      <div class="content-block reveal">
+        <p>The critical difference: Amex <strong>added new value</strong> alongside a price increase. Bilt <strong>removed its core value proposition</strong> (free rent points) and added complexity. The personas noticed immediately.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 6: EVALUATION CONTROLS ===== -->
+  <section id="controls" class="section">
+    <div class="container">
+      <p class="section-label">The Controls</p>
+      <h2 class="section-title reveal">Ensuring a Fair Test</h2>
+
+      <div class="content-block reveal">
+        <p>The biggest risk with AI-based prediction is <strong>regurgitation</strong>: the model simply repeating known outcomes rather than generating genuine forecasts. Here's how the experiment was controlled.</p>
+      </div>
+
+      <div class="checklist reveal">
+        <div class="checklist-item">
+          <div class="check-icon">&#10003;</div>
+          <div><h4>Reddit data cutoff</h4><p>Personas were built exclusively from posts dated <strong>before</strong> either card announced its changes. No post-launch reactions were included.</p></div>
+        </div>
+        <div class="checklist-item">
+          <div class="check-icon">&#10003;</div>
+          <div><h4>Model knowledge cutoff</h4><p>The AI model used (Claude Opus 4.5) has a training data cutoff that <strong>predates</strong> the Bilt 2.0 launch. It could not have memorized the backlash.</p></div>
+        </div>
+        <div class="checklist-item">
+          <div class="check-icon">&#10003;</div>
+          <div><h4>No leaked details in personas</h4><p>Bilt personas were grounded in <strong>Bilt 1.0</strong>, the existing free card. Specific tier pricing and rent fees were presented only during the simulated interview, not baked into backstories.</p></div>
+        </div>
+        <div class="checklist-item">
+          <div class="check-icon">&#10003;</div>
+          <div><h4>Fresh scenario presentation</h4><p>Product changes were described as a hypothetical announcement. Personas reacted to scenarios they had never seen before.</p></div>
+        </div>
+        <div class="checklist-item">
+          <div class="check-icon">&#10003;</div>
+          <div><h4>Cross-tool validation</h4><p>The identical pipeline was also run through <strong>OpenAI Codex (o3-pro)</strong> to test whether results depend on the specific AI tool used.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 7: THE RESULTS ===== -->
+  <section id="results" class="section">
+    <div class="container">
+      <p class="section-label">The Results</p>
+      <h2 class="section-title reveal">Negative on Both,<br>but Far Worse for Bilt</h2>
+
+      <div class="content-block reveal">
+        <p>The synthetic twins predicted negative reactions to <strong>both</strong> product launches. The critical insight was not that customers would push back, but the <strong>gap</strong> between the two reactions and why it existed.</p>
+      </div>
+
+      <!-- Score Scale Explanation -->
+      <div class="score-scale reveal">
+        <div style="width:100%">
+          <p style="text-align:center;font-size:14px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:16px;">How to read the scores: 1-5 scale (higher = better)</p>
+          <div class="scale-bar">
+            <div class="score-marker" style="left:21.4%;background:var(--accent-red);" title="Bilt 2.07">
+              <span class="score-marker-label">Bilt 2.07</span>
+            </div>
+            <div class="score-marker" style="left:56.8%;background:var(--accent-gold);" title="Amex 3.27">
+              <span class="score-marker-label">Amex 3.27</span>
+            </div>
+          </div>
+          <div class="scale-labels">
+            <span>1 — Very Negative</span>
+            <span>3 — Neutral</span>
+            <span>5 — Very Positive</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-container reveal">
+        <h3 class="chart-title">Sentiment Distribution Across 30 Personas</h3>
+        <canvas id="chart-sentiment" height="140"></canvas>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>Why Bilt scored so much lower</h3>
+        <p>The personas identified two changes that felt like Bilt was <strong>taking away the core promise</strong> of the product:</p>
+      </div>
+
+      <div class="insight-cards reveal">
+        <div class="glass-card insight-card">
+          <span class="insight-number">1</span>
+          <h4>The rent fee destroyed the brand's identity</h4>
+          <p>Bilt's entire value proposition was "earn points on rent for free." A 3% processing fee felt like a bait-and-switch. <strong>57% of personas called it a deal-breaker.</strong> This wasn't price sensitivity. It was identity betrayal.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">2</span>
+          <h4>The credit history migration introduced real financial risk</h4>
+          <p>Moving from Wells Fargo to Cardless, a startup with roughly 50 employees, meant potentially resetting credit account age. This directly threatened the credit scores that renters had been building toward homeownership.</p>
+        </div>
+      </div>
+
+      <div class="stat-row reveal">
+        <div class="stat-card small">
+          <div class="stat-number counter" data-target="57" data-suffix="%">0</div>
+          <div class="stat-label">called rent fee<br>a deal-breaker</div>
+        </div>
+        <div class="stat-card small">
+          <div class="stat-number counter" data-target="0" data-suffix="%">0</div>
+          <div class="stat-label">interest in<br>paid tiers</div>
+        </div>
+        <div class="stat-card small">
+          <div class="stat-number counter" data-target="100" data-suffix="%">0</div>
+          <div class="stat-label">paid tier interest<br>evaporated after Reddit</div>
+        </div>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>Why Amex was predicted as survivable</h3>
+        <p>The same personas were far more receptive to the Amex Platinum refresh ($695 to $895) because the structure was fundamentally different. Amex <strong>added tangible value</strong> alongside the price increase: a $400 dining credit, a $600 hotel credit, and new partnerships with Lululemon and Oura Ring. No core benefit was removed.</p>
+        <p>Amex gave customers new reasons to stay. Bilt took away the one reason they signed up.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 8: SOCIAL INFLUENCE ===== -->
+  <section id="social-influence" class="section">
+    <div class="container">
+      <p class="section-label">Social Influence</p>
+      <h2 class="section-title reveal">How Reddit Makes It Worse</h2>
+
+      <div class="content-block reveal">
+        <p>In <strong>Round 1</strong>, each persona reacted to the product announcements independently, based only on their own values and circumstances. In <strong>Round 2</strong>, the same personas were exposed to actual 2025 Reddit discussions about each product, then asked the same questions again.</p>
+        <p>The goal: measure how community conversation shifts individual opinion. The results revealed a powerful negativity bias.</p>
+      </div>
+
+      <div class="chart-container reveal">
+        <h3 class="chart-title">Scores Before vs. After Reddit Exposure</h3>
+        <canvas id="chart-waterfall" height="280"></canvas>
+      </div>
+
+      <div class="stat-row reveal">
+        <div class="stat-card small">
+          <div class="stat-number">2.2x</div>
+          <div class="stat-label">negative posts cited<br>vs. positive posts</div>
+        </div>
+        <div class="stat-card small">
+          <div class="stat-number">90%</div>
+          <div class="stat-label">of Bilt personas<br>shifted more negative</div>
+        </div>
+        <div class="stat-card small">
+          <div class="stat-number">83%</div>
+          <div class="stat-label">of Amex personas<br>shifted more negative</div>
+        </div>
+      </div>
+
+      <div class="chart-container reveal">
+        <h3 class="chart-title">Bilt Tier Selection: Before vs. After Reddit Exposure</h3>
+        <canvas id="chart-tiers" height="220"></canvas>
+      </div>
+
+      <!-- Reddit Quiz -->
+      <div class="quiz-container reveal" id="quiz-reddit">
+        <h3 class="quiz-title">Which Reddit post was most influential?</h3>
+        <p class="quiz-prompt">Two posts about different products. One had <strong>3,653 upvotes</strong>, the other had only <strong>200 upvotes</strong>. Which one influenced more of the synthetic personas?</p>
+        <div class="quiz-options">
+          <button class="quiz-option" data-answer="high">
+            <span class="reddit-upvotes">3,653 &#9650;</span>
+            "Hard conversations: The Amex Platinum is not for you"
+          </button>
+          <button class="quiz-option" data-answer="low">
+            <span class="reddit-upvotes">200 &#9650;</span>
+            Post warning that Bilt's Cardless migration could harm credit scores
+          </button>
+        </div>
+        <div class="quiz-result" id="quiz-reddit-result">
+          <div class="quiz-result-inner">
+            <h4>The 200-upvote post won.</h4>
+            <div class="quiz-stats">
+              <div class="quiz-stat">
+                <span class="quiz-stat-number">24/30</span>
+                <span class="quiz-stat-label">personas cited the credit score post (200 upvotes)</span>
+              </div>
+              <div class="quiz-stat">
+                <span class="quiz-stat-number">22/30</span>
+                <span class="quiz-stat-label">personas cited "Hard conversations" (3,653 upvotes)</span>
+              </div>
+            </div>
+            <p class="quiz-result-note"><strong>Concrete personal financial risk beats abstract product criticism.</strong> Upvote count does not determine influence; specificity does. The credit score post introduced an entirely new concern that no persona had considered on their own.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 9: PREDICTIONS VS REALITY ===== -->
+  <section id="predictions" class="section">
+    <div class="container">
+      <p class="section-label">Validation</p>
+      <h2 class="section-title reveal">Predictions vs. Reality</h2>
+
+      <div class="content-block reveal">
+        <p>The ultimate test of any predictive framework is whether it gets the answer right. Here is what the synthetic twins predicted before each launch, alongside what actually happened.</p>
+      </div>
+
+      <h3 class="subsection-title reveal">Bilt 2.0: Synthetic twins predicted significantly more negative reactions to changes</h3>
+      <div class="scorecard reveal">
+        <div class="scorecard-header">
+          <div>What the personas predicted</div>
+          <div>What actually happened</div>
+          <div></div>
+        </div>
+        <div class="scorecard-row">
+          <div class="scorecard-prediction">Strongly negative reception (2.07/5 vs. Amex's 3.27/5)</div>
+          <div class="scorecard-outcome">CEO forced to email apology within 48 hours</div>
+          <div class="scorecard-check">&#10003;</div>
+        </div>
+        <div class="scorecard-row">
+          <div class="scorecard-prediction">Rent fee identified as the #1 deal-breaker</div>
+          <div class="scorecard-outcome">Bilt reversed the rent earning complexity</div>
+          <div class="scorecard-check">&#10003;</div>
+        </div>
+        <div class="scorecard-row">
+          <div class="scorecard-prediction">Credit history migration flagged as a risk</div>
+          <div class="scorecard-outcome">Became a top concern in real post-launch discussions</div>
+          <div class="scorecard-check">&#10003;</div>
+        </div>
+      </div>
+
+      <h3 class="subsection-title reveal">Amex Refresh: The synthetic twins predicted a mixed but survivable launch</h3>
+      <div class="scorecard reveal">
+        <div class="scorecard-header">
+          <div>What the personas predicted</div>
+          <div>What actually happened</div>
+          <div></div>
+        </div>
+        <div class="scorecard-row">
+          <div class="scorecard-prediction">Polarized but net-positive reception (3.27/5)</div>
+          <div class="scorecard-outcome">Mixed reviews, no reversal needed</div>
+          <div class="scorecard-check">&#10003;</div>
+        </div>
+        <div class="scorecard-row">
+          <div class="scorecard-prediction">High-spenders stay, budget users defect</div>
+          <div class="scorecard-outcome">"Powerhouse for frequent travelers, tough sell for occasional"</div>
+          <div class="scorecard-check">&#10003;</div>
+        </div>
+        <div class="scorecard-row">
+          <div class="scorecard-prediction">Fee justifiable if credits are used</div>
+          <div class="scorecard-outcome">NerdWallet: "using half the credits, it pays for itself"</div>
+          <div class="scorecard-check">&#10003;</div>
+        </div>
+        <div class="scorecard-row">
+          <div class="scorecard-prediction">Dining credit drives retention for key segments</div>
+          <div class="scorecard-outcome">Resy credit cited as the standout benefit by reviewers</div>
+          <div class="scorecard-check">&#10003;</div>
+        </div>
+      </div>
+
+      <div class="content-block reveal callout-box">
+        <h3>The 1.2-point gap told the whole story</h3>
+        <p><strong>Bilt at 2.07/5:</strong> "Needs fundamental product changes before launch."</p>
+        <p><strong>Amex at 3.27/5:</strong> "Core product is sound. Focus messaging on price-sensitive segments."</p>
+        <p>A system that simply said "customers won't like changes" would be useless. The value is in the <strong>relative signal</strong>: the framework correctly differentiated a launch that would fail from one that would survive, and identified exactly why.</p>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>But the AI wasn't perfect</h3>
+        <p>The synthetic twins predicted <strong>0% interest in paid tiers</strong> and suggested the majority of users would leave Bilt entirely. That turned out to be overstated. Two weeks after launch, Ankur Jain emailed members noting that <strong>83% of active cardholders had requested a Bilt 2.0 card</strong> and that new applicant volume was running 1.5x higher than the Bilt 1.0 peak.</p>
+        <p>The AI was directionally right: the backlash was real, the messaging was a disaster, and the CEO had to publicly apologize. But it overstated how many users would actually walk away. In reality, most people still wanted the card — they just wanted it communicated differently. Inertia, switching costs, and the underlying product value kept users on board even when sentiment was deeply negative.</p>
+        <p>This is an important calibration point: <strong>synthetic twins predict sentiment, not behavior</strong>. People can be furious about a product change and still use the product. The framework tells you how customers will feel about your launch, not whether they'll literally cancel. That's still enormously valuable — it correctly identified the crisis — but it should not be mistaken for a churn model.</p>
+      </div>
+
+      <blockquote class="pull-quote reveal">
+        <p>"We're on track for a record month of new card applicants — already 1.5x our biggest month of new applicants on the prior Bilt Card 1.0."</p>
+        <cite>Ankur Jain, CEO of Bilt Rewards — email to Bilt members, February 2026</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 10: COULD BILT HAVE SAVED IT? ===== -->
+  <section id="rework" class="section">
+    <div class="container">
+      <p class="section-label">The Counterfactual</p>
+      <h2 class="section-title reveal">Could Bilt Have Saved It<br>With Better Messaging?</h2>
+
+      <div class="content-block reveal">
+        <p>The synthetic twins told us Bilt 2.0 would fail. But here's a harder question: <strong>could the same product have landed differently?</strong></p>
+        <p>Bilt couldn't just go back to the old card. The economics had changed. They needed tiers, they needed a revenue model beyond interchange, and they needed to migrate platforms. Those were business realities, not messaging choices. But how you frame a change matters enormously, and Bilt's framing made every change feel like a loss.</p>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>What Bilt got wrong wasn't the product. It was the framing.</h3>
+        <p>Consider the difference between these two framings of the exact same change:</p>
+      </div>
+
+      <div class="scenario-cards reveal">
+        <div class="scenario-card" style="border-color: rgba(239,68,68,0.3);">
+          <h4 style="color: var(--accent-red);">How Bilt framed it</h4>
+          <ul class="scenario-changes">
+            <li>3% processing fee on rent payments</li>
+            <li>New Bilt Cash currency replaces direct point earning</li>
+            <li>Three tiers: Blue, Obsidian ($95), Palladium ($495)</li>
+          </ul>
+        </div>
+        <div class="scenario-card" style="border-color: rgba(34,197,94,0.3);">
+          <h4 style="color: var(--accent-green);">How it could have been framed</h4>
+          <ul class="scenario-changes">
+            <li>This is now a card you want to use for everything — not just rent</li>
+            <li>Still the only card on the market that makes it easy to earn points on rent without the higher fees other options charge</li>
+            <li>Still no annual fee. Still earn on rent. Now also earn 4% Bilt Cash on everyday spend</li>
+            <li>One free card with everything you have today, plus optional premium tiers for power users</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>Why the Amex playbook worked</h3>
+        <p>Amex raised the Platinum annual fee by <strong>$200</strong> and the community's average reaction was 1.2 points higher than Bilt's. Why? Because Amex led with what they were <strong>adding</strong>: a tripled hotel credit, a new $400 dining credit, Lululemon and Oura Ring partnerships. The fee increase was presented as the cost of getting more, not the cost of keeping what you already had.</p>
+        <p>Bilt did the opposite. Every headline was about what was being <strong>taken away</strong>: free rent points now had conditions, the simple card was replaced by confusing tiers, and a startup was handling your credit history. The product changes may have been defensible. The communication strategy was not.</p>
+      </div>
+
+      <div class="content-block reveal callout-box">
+        <h3>The lesson for product teams</h3>
+        <p>Synthetic twins don't just predict whether a launch will fail. They can be used to <strong>test alternative messaging</strong> before committing to one. Run the same product through three different framings. See which one the personas react to least negatively. Iterate on the message, not just the product.</p>
+        <p>A company with this framework could have tested Bilt's announcement copy against an Amex-style "here's what you're gaining" approach and discovered the gap before a single customer saw it. <strong>The $75 it costs to run this test is cheaper than a CEO apology email.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 11: WHAT THIS MEANS ===== -->
+  <section id="implications" class="section">
+    <div class="container">
+      <p class="section-label">Implications</p>
+      <h2 class="section-title reveal">What This Means for Marketing</h2>
+
+      <div class="chart-container reveal">
+        <h3 class="chart-title">Time to Insights: Synthetic Twins vs. Traditional Methods</h3>
+        <canvas id="chart-cost" height="160"></canvas>
+      </div>
+
+      <div class="stat-row reveal">
+        <div class="stat-card">
+          <div class="stat-number">1-3 hrs</div>
+          <div class="stat-label">Synthetic twins<br>(once pipeline is built)</div>
+        </div>
+        <div class="stat-card small">
+          <div class="stat-number">Weeks</div>
+          <div class="stat-label">User surveys<br>(recruit, deploy, analyze)</div>
+        </div>
+        <div class="stat-card small">
+          <div class="stat-number">Weeks</div>
+          <div class="stat-label">Focus groups &amp; calls<br>(schedule, run, synthesize)</div>
+        </div>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>Speed creates room to iterate</h3>
+        <p>The real advantage isn't just that synthetic twins are faster. It's what that speed enables. When insights arrive in hours instead of weeks, product teams can test multiple messaging variants, pricing structures, and feature combinations <strong>before committing to anything</strong>. You learn what resonates early enough to actually change course.</p>
+        <p>Bilt's team shipped a single version of the announcement and found out it was wrong from actual customers. With synthetic twins, they could have tested three framings in a single afternoon and discovered that leading with "what you're losing" was the wrong approach before a single real customer saw it.</p>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>Why companies should build this in-house</h3>
+        <p>Companies already have proprietary data (spending patterns, support tickets, NPS scores) that would make these personas significantly more accurate than a Reddit-only approach. The tooling is commoditized: an AI coding assistant, public Reddit archives, and a Python script. No proprietary infrastructure required.</p>
+        <p>More importantly, iteration requires domain knowledge. The most valuable part of this project was catching errors and making judgment calls that an outside vendor would miss.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 11: BUILDING THE SYSTEM ===== -->
+  <section id="building" class="section">
+    <div class="container">
+      <p class="section-label">Building the System</p>
+      <h2 class="section-title reveal">Claude Code vs. Codex:<br>What I Learned</h2>
+
+      <div class="content-block reveal">
+        <p>I didn't want this project to be a one-tool story. So I ran the identical pipeline through both <strong>Claude Code (powered by Opus 4.5)</strong> and <strong>OpenAI Codex (powered by o3-pro)</strong>. Same data, same spec, same prompts. The quality gap surprised me.</p>
+      </div>
+
+      <div class="comparison-table reveal">
+        <table>
+          <thead>
+            <tr><th></th><th>Codex / o3-pro</th><th>Claude Code / Opus 4.5</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Persona names</td><td class="cell-bad">All named "Alex Morgan"</td><td class="cell-good">30 unique, diverse names</td></tr>
+            <tr><td>Interview responses</td><td class="cell-bad">Identical across all 30</td><td class="cell-good">Unique, in-character</td></tr>
+            <tr><td>Segment insights</td><td class="cell-bad">None (one data point repeated 30x)</td><td class="cell-good">Income, tenure, brand-specific</td></tr>
+            <tr><td>Secondary concerns</td><td class="cell-bad">Not surfaced</td><td class="cell-good">Credit history, platform risk</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="content-block reveal">
+        <p>Codex produced structurally complete outputs, but every persona gave the same answer. With 30 identical responses, the framework generates a single data point disguised as consensus. Claude Code's personas, by contrast, revealed which customer segments were most at risk and surfaced concerns the product team had not anticipated.</p>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>What building with Claude Code actually looked like</h3>
+        <p>I want to be honest about this: the AI did not just work out of the box. This project required constant human-in-the-loop oversight. The AI did the heavy lifting on data processing and persona generation, but every step needed my judgment:</p>
+      </div>
+
+      <div class="insight-cards reveal">
+        <div class="glass-card insight-card">
+          <span class="insight-number">1</span>
+          <h4>Catching hallucinated product details</h4>
+          <p>The AI confidently stated Amex points transfer to United MileagePlus. They don't; that's a Chase partner. Persona behaviors and attitudes were well-grounded, but specific product features required fact-checking.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">2</span>
+          <h4>Forcing demographic diversity</h4>
+          <p>Left to its own defaults, the AI gave every persona an "Excellent 750+" credit score. Real users range from building credit for the first time to carrying balances. Manual intervention was required to create realistic distributions.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">3</span>
+          <h4>Managing temporal data contamination</h4>
+          <p>The AI treated post-launch reactions as if they were pre-launch sentiment. Strict date filters had to be enforced manually to prevent the model from "knowing" outcomes it shouldn't have access to.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">4</span>
+          <h4>Correcting primary card assumptions</h4>
+          <p>The AI assumed every r/biltrewards user had Bilt as their primary card. In reality, Bilt is almost always a supplementary rent card, with Chase or Amex as the daily driver. This required manual redistribution.</p>
+        </div>
+      </div>
+
+      <div class="content-block reveal">
+        <p><strong>The lesson:</strong> persona quality matters more than persona quantity. A well-supervised set of 30 diverse personas produces better predictions than 100 identical ones. The human-in-the-loop is not optional; it's what makes the difference between useful signals and noise.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 12: GOVERNANCE & LIMITATIONS ===== -->
+  <section id="governance" class="section">
+    <div class="container">
+      <p class="section-label">Governance &amp; Limitations</p>
+      <h2 class="section-title reveal">Responsible Use of<br>Synthetic Personas</h2>
+
+      <div class="content-block reveal">
+        <p>Synthetic twins are powerful, but they come with real constraints that any team using this approach needs to understand and govern. This is not a black box you can trust blindly. It requires human oversight, clear boundaries, and honest assessment of what it can and cannot do.</p>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>What synthetic twins are not</h3>
+      </div>
+
+      <div class="insight-cards reveal">
+        <div class="glass-card insight-card">
+          <span class="insight-number">1</span>
+          <h4>Not a replacement for real research</h4>
+          <p>Synthetic twins generate <strong>hypotheses, not conclusions</strong>. They tell you where to look and what questions to ask. They do not replace talking to actual customers, running real surveys, or analyzing behavioral data.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">2</span>
+          <h4>Not a churn predictor</h4>
+          <p>As the Bilt case showed, the AI predicted 0% paid tier interest but 83% of users still requested the new card. Synthetic twins predict <strong>sentiment, not behavior</strong>. People can be furious and still use the product. Inertia and switching costs are real.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">3</span>
+          <h4>Not free of hallucination</h4>
+          <p>The AI confidently stated Amex points transfer to United MileagePlus (they don't — that's Chase). Product-specific facts require human verification. Attitudes and behaviors are well-grounded; specific details can be fabricated.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">4</span>
+          <h4>Not representative of all customers</h4>
+          <p>Reddit data skews toward credit card enthusiasts with high scores. Military users, elderly cardholders, casual users, and non-English speakers are systematically underrepresented. A "missing voices" audit is required before generating personas.</p>
+        </div>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>Data governance principles</h3>
+      </div>
+
+      <div class="checklist reveal">
+        <div class="checklist-item">
+          <div class="check-icon">&#10003;</div>
+          <div><h4>Public data only</h4><p>This project used exclusively public Reddit posts. No private messages, no scraped profiles, no proprietary customer data. Any company deploying this internally should establish clear policies about what data sources are permissible.</p></div>
+        </div>
+        <div class="checklist-item">
+          <div class="check-icon">&#10003;</div>
+          <div><h4>No individual targeting</h4><p>Personas are composites derived from community-level patterns, not reconstructions of individual users. The goal is to understand segments, not to profile specific people.</p></div>
+        </div>
+        <div class="checklist-item">
+          <div class="check-icon">&#10003;</div>
+          <div><h4>Temporal controls required</h4><p>Product launches split data into "before" and "after" periods. Without strict date filtering, the model can contaminate predictions with post-launch reactions it shouldn't have access to.</p></div>
+        </div>
+        <div class="checklist-item">
+          <div class="check-icon">&#10003;</div>
+          <div><h4>Human-in-the-loop is mandatory</h4><p>Every step of this project required judgment calls the AI could not make alone: forcing demographic diversity, correcting primary card assumptions, filtering temporal contamination, and fact-checking product details.</p></div>
+        </div>
+      </div>
+
+      <h3 class="subsection-title reveal">7 Key Learnings</h3>
+      <div class="expandable-cards reveal">
+        <div class="expandable-card">
+          <button class="expandable-header"><span class="expandable-number">1</span><span>Synthetic personas can hallucinate product details</span><span class="expandable-icon">+</span></button>
+          <div class="expandable-content"><p>The AI confidently stated that users transfer Amex points to United MileagePlus, but United is a Chase partner, not Amex. Persona behaviors and attitudes are well-grounded in data; specific product features require human fact-checking.</p></div>
+        </div>
+        <div class="expandable-card">
+          <button class="expandable-header"><span class="expandable-number">2</span><span>Reddit data has selection bias that requires correction</span><span class="expandable-icon">+</span></button>
+          <div class="expandable-content"><p>Reddit skews toward points enthusiasts with high credit scores. Military users, elderly cardholders, and casual users are underrepresented. Before generating personas, explicitly identify segments that may be missing and force-include them.</p></div>
+        </div>
+        <div class="expandable-card">
+          <button class="expandable-header"><span class="expandable-number">3</span><span>Product launches create data contamination</span><span class="expandable-icon">+</span></button>
+          <div class="expandable-content"><p>The Amex Platinum refresh in September 2025 fundamentally changed the card's value proposition. Posts from after the refresh represent a different product. Always control for temporal events that split your data into "before" and "after" periods.</p></div>
+        </div>
+        <div class="expandable-card">
+          <button class="expandable-header"><span class="expandable-number">4</span><span>More quotes per persona produce better grounding</span><span class="expandable-icon">+</span></button>
+          <div class="expandable-content"><p>Initial personas had only 3 quotes each, making them feel based on a single Reddit post. Increasing to 5+ quotes that show different facets (spending habits, pain points, emotional reactions) creates more credible and predictively useful personas.</p></div>
+        </div>
+        <div class="expandable-card">
+          <button class="expandable-header"><span class="expandable-number">5</span><span>Demographic diversity must be intentionally designed</span><span class="expandable-icon">+</span></button>
+          <div class="expandable-content"><p>All initial personas had "Excellent 750+" credit scores. Real users span the full range, from people building credit for the first time to those carrying balances. Match demographics to archetype: a new young cardholder probably has a Good score, not Excellent.</p></div>
+        </div>
+        <div class="expandable-card">
+          <button class="expandable-header"><span class="expandable-number">6</span><span>Ground personas in current products, not leaked futures</span><span class="expandable-icon">+</span></button>
+          <div class="expandable-content"><p>The 2025 Reddit data was full of Bilt 2.0 speculation. But personas should represent the current product experience. Anticipation of upcoming changes is valid sentiment; specific unreleased pricing should not define the persona's identity.</p></div>
+        </div>
+        <div class="expandable-card">
+          <button class="expandable-header"><span class="expandable-number">7</span><span>The subreddit's card is not always the primary card</span><span class="expandable-icon">+</span></button>
+          <div class="expandable-content"><p>The AI assumed Bilt was the primary card for all Bilt personas. In reality, Bilt is predominantly a supplementary rent card. People post in r/biltrewards because they have a Bilt card for rent, not because it is their daily driver. Primary card assignments must be distributed realistically.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 13: FUTURE DIRECTIONS ===== -->
+  <section id="future" class="section">
+    <div class="container">
+      <p class="section-label">What's Next</p>
+      <h2 class="section-title reveal">Future Directions</h2>
+
+      <div class="content-block reveal">
+        <p>This project demonstrated the framework on credit card launches using public Reddit data. But the approach generalizes far beyond this specific domain. Here's where I see this work going.</p>
+      </div>
+
+      <div class="insight-cards reveal">
+        <div class="glass-card insight-card">
+          <span class="insight-number">1</span>
+          <h4>Proprietary data integration</h4>
+          <p>Companies have data Reddit doesn't: spending patterns, support tickets, NPS scores, churn history. Grounding personas in internal data alongside public sentiment would dramatically improve accuracy and uncover segments that never post online.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">2</span>
+          <h4>A/B testing messaging before launch</h4>
+          <p>The counterfactual analysis in this project was done after the fact. The real power is running it <em>before</em> launch: test three framings of the same product, see which one the personas react to least negatively, and ship the winning message. Iterate on copy, not on apology emails.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">3</span>
+          <h4>Longitudinal persona tracking</h4>
+          <p>Generate personas quarterly from the same community. Track how sentiment evolves over time. Detect early warning signs — like growing frustration with a specific feature — before they reach critical mass. A living panel instead of a one-time snapshot.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">4</span>
+          <h4>Cross-industry application</h4>
+          <p>Any product with an active online community can use this framework: SaaS pricing changes, subscription tier restructuring, hardware product refreshes, streaming service content shifts. Anywhere customers discuss products publicly, synthetic twins can predict reactions.</p>
+        </div>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>Calibrating sentiment vs. behavior</h3>
+        <p>The biggest open question from this project is the gap between what personas <em>say</em> they'll do and what real customers <em>actually</em> do. The synthetic twins predicted mass rejection; reality showed 83% adoption. Closing that gap — perhaps by weighting persona responses with historical behavioral data or by explicitly modeling inertia and switching costs — is the most important next step for making this framework actionable for business decisions, not just sentiment reads.</p>
+      </div>
+
+      <div class="content-block reveal">
+        <h3>From research tool to product development partner</h3>
+        <p>The vision isn't a report that sits on someone's desk. It's a tool integrated into the product development cycle: before every major launch, pricing change, or feature removal, the team runs it through the synthetic panel. Not as a gate, but as a lens. The goal is to learn what your customers care about early enough that you still have room to iterate and build the product that works for your business <em>and</em> resonates with your customers — new and existing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 14: CLOSING ===== -->
+  <section id="closing" class="section closing">
+    <div class="container">
+      <blockquote class="closing-quote reveal">
+        <p>"The synthetic twins knew.<br>The launch team didn't ask."</p>
+      </blockquote>
+      <div class="closing-meta reveal">
+        <p>Generative AI combined with public community data can predict product launch reactions with directional accuracy, for roughly $75 in compute and 8 hours of human oversight.</p>
+        <p class="closing-question">The question is not whether companies should do this.<br>It's whether they can afford not to.</p>
+      </div>
+      <div class="closing-credits reveal">
+        <div class="credits-divider"></div>
+        <p class="credits-author">Built by <a href="https://essilfie.com" target="_blank" rel="noopener">Will Essilfie</a></p>
+        <p class="credits-school">Columbia Business School | GenAI Meets Marketing Data | 2026</p>
+        <p class="credits-tool">This website was built with <a href="https://claude.ai/claude-code" target="_blank" rel="noopener">Claude Code</a></p>
+        <div class="credits-links">
+          <a href="https://github.com/wessilfie" target="_blank" rel="noopener">View Full Project on GitHub &rarr;</a>
+        </div>
+      </div>
+
+      <div class="sources-section reveal">
+        <div class="credits-divider"></div>
+        <h3 class="sources-title">Sources &amp; References</h3>
+        <ul class="sources-list">
+          <li><a href="https://bilt.com" target="_blank" rel="noopener">Bilt Rewards</a> — bilt.com</li>
+          <li><a href="https://www.reddit.com/r/biltrewards/" target="_blank" rel="noopener">r/biltrewards</a>, <a href="https://www.reddit.com/r/amex/" target="_blank" rel="noopener">r/amex</a>, <a href="https://www.reddit.com/r/Venturex/" target="_blank" rel="noopener">r/Venturex</a> — Reddit communities used for persona generation</li>
+          <li><a href="https://www.reddit.com/r/CreditCards/comments/1q60pb1/found_bilt_20_card_details/" target="_blank" rel="noopener">Bilt 2.0 Card Details</a> — r/CreditCards</li>
+          <li><a href="https://www.reddit.com/r/AmexPlatinum/comments/1nmyuo8/amex_platinum_refresh_summary_of_all_new_perks/" target="_blank" rel="noopener">Amex Platinum Refresh Summary</a> — r/AmexPlatinum</li>
+          <li><a href="https://academictorrents.com/details/1614740ac8c94505e4ecb9d88be8bed7b6afddd4" target="_blank" rel="noopener">Reddit Data Archive</a> — Academic Torrents</li>
+          <li><a href="https://www.reddit.com/r/pushshift/comments/1r5z42j/separate_dump_files_for_the_top_40k_subreddits/" target="_blank" rel="noopener">Pushshift Dump Files</a> — r/pushshift</li>
+          <li><a href="https://business.columbia.edu/faculty/people/george-zhida-gui" target="_blank" rel="noopener">Professor George Gui</a> — Columbia Business School, for teaching me about synthetic twins research</li>
+          <li><a href="https://ccforpms.com" target="_blank" rel="noopener">Claude Code for PMs</a> — Tips and tricks for learning Claude Code</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

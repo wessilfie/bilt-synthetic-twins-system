@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Synthetic Twins — Could AI Have Predicted Bilt's 2.0 Launch Disaster?</title>
-  <meta name="description" content="A framework for using Reddit data and GenAI to build synthetic customer personas that predict product launch reactions." />
+  <meta name="description" content="A framework for using Reddit data and GenAI to build synthetic customer personas that predict how online communities react to product launches." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
     <div class="hero-content">
       <p class="hero-eyebrow">Columbia Business School | GenAI Meets Marketing Data</p>
       <h1 class="hero-title">Could AI Have Predicted<br>Bilt's 2.0 Launch Disaster?</h1>
-      <p class="hero-subtitle">A framework for using Reddit data and generative AI to build synthetic customer personas that predict product launch reactions</p>
+      <p class="hero-subtitle">A framework for using Reddit data and generative AI to build synthetic customer personas that predict how online communities react to product launches</p>
       <p class="hero-author">An investigative analysis and report by Will Essilfie</p>
       <div class="scroll-indicator">
         <span>Scroll to explore</span>
@@ -33,7 +33,6 @@
       <h2 class="section-title reveal">The Night Bilt 2.0 Launched</h2>
 
       <div class="content-block reveal">
-        <p>I'm going to tell you a story.</p>
         <p>In January 2026, I got invited to the Bilt 2.0 launch event at One World Trade Center. Lavish venue, open bar, city views, the whole production. Ankur Jain took the stage and unveiled the new cards. Three tiers. New currency. A complete reimagining of the product.</p>
         <p>I'd been a Bilt cardholder for years. I liked the card. The promise was simple and it worked: earn points on rent, for free. That simplicity is what made it easy to recommend to every renter I knew.</p>
       </div>
@@ -109,18 +108,18 @@
       <h2 class="section-title reveal">Could this have been predicted<br>before launch?</h2>
 
       <div class="content-block reveal">
-        <p>That question stuck with me after the launch event. Not just "could Bilt have seen this coming," but something bigger: can companies use <strong>AI and public community data</strong> to test how customers will react before they ship? Not after the CEO apology. Before the product leaves the building.</p>
-        <p>For my GenAI Meets Marketing Data class at Columbia Business School, I decided to find out. This project tests two hypotheses:</p>
+        <p>That question stuck with me after the launch event. Not just "could Bilt have seen this coming," but something bigger: can companies use <strong>AI and public community data</strong> to test how their most vocal customers will react before they ship? Not after the CEO apology. Before the product leaves the building.</p>
+        <p>For my GenAI Meets Marketing Data class at Columbia Business School, I decided to find out. An important framing note: Reddit users are not representative of all customers. They skew toward enthusiasts, power users, and people with strong opinions. But that's exactly the population whose reaction can make or break a launch. If you can predict how Reddit reacts, you're predicting the first wave of public sentiment that shapes media coverage, social proof, and word of mouth. This project tests two hypotheses:</p>
       </div>
 
       <div class="hypothesis-cards reveal">
         <div class="glass-card">
           <span class="card-number">Hypothesis 1</span>
-          <p>Large language models (like Claude and ChatGPT) combined with public social media data can create synthetic personas that <strong>actually represent</strong> real customer bases.</p>
+          <p>Large language models (like Claude and ChatGPT) combined with public Reddit data can create synthetic personas that <strong>represent how online communities</strong> think about and use these products.</p>
         </div>
         <div class="glass-card">
           <span class="card-number">Hypothesis 2</span>
-          <p>Those personas can <strong>predict customer reactions</strong> to product launches more cheaply and faster than traditional user research.</p>
+          <p>Those personas can <strong>predict community reactions</strong> to product launches more cheaply and faster than traditional user research.</p>
         </div>
       </div>
 
@@ -509,7 +508,7 @@
       <h2 class="section-title reveal">Ensuring a Fair Test</h2>
 
       <div class="content-block reveal">
-        <p>The biggest risk with AI-based prediction is <strong>regurgitation</strong>: the model simply repeating known outcomes rather than generating genuine forecasts. Here's how the experiment was controlled.</p>
+        <p>The biggest risk with AI-based prediction is <strong>regurgitation</strong>: the model simply repeating known outcomes rather than generating genuine forecasts. The evaluation approach was defined upfront, before running any personas through the scenarios: compare predicted sentiment scores against actual public reception, using the Amex refresh as a control case. Here's how the experiment was controlled.</p>
       </div>
 
       <div class="checklist reveal">
@@ -952,7 +951,7 @@
         <div class="glass-card insight-card">
           <span class="insight-number">4</span>
           <h4>Not representative of all customers</h4>
-          <p>Reddit data skews toward credit card enthusiasts with high scores. Military users, elderly cardholders, casual users, and non-English speakers are systematically underrepresented. A "missing voices" audit is required before generating personas.</p>
+          <p>Reddit data skews toward credit card enthusiasts with strong opinions. Military users, elderly cardholders, casual users, and non-English speakers are systematically underrepresented. The overlap between users who post across multiple years about the same product is also small, which makes it harder to track changes in the personas and their views as the world shifts. These personas represent how the <em>online community</em> thinks, not the full customer base. A "missing voices" audit and supplementary data sources (YouTube comments, app reviews, survey data) are needed for broader representativeness.</p>
         </div>
       </div>
 
@@ -1036,11 +1035,16 @@
         </div>
         <div class="glass-card insight-card">
           <span class="insight-number">3</span>
-          <h4>Longitudinal persona tracking</h4>
+          <h4>Tracking personas over time</h4>
           <p>Generate personas quarterly from the same community. Track how sentiment evolves over time. Detect early warning signs, like growing frustration with a specific feature, before they reach critical mass. A living panel instead of a one-time snapshot.</p>
         </div>
         <div class="glass-card insight-card">
           <span class="insight-number">4</span>
+          <h4>Multi-platform data sourcing</h4>
+          <p>This project used Reddit exclusively. But customers discuss products on YouTube, Twitter/X, TikTok, and product review sites too. Pulling from multiple platforms would broaden the persona base beyond Reddit's enthusiast skew and capture segments that never post on Reddit. If the framework works for Reddit communities, it should generalize to any platform with rich public discussion.</p>
+        </div>
+        <div class="glass-card insight-card">
+          <span class="insight-number">5</span>
           <h4>Cross-industry application</h4>
           <p>Any product with an active online community can use this framework: SaaS pricing changes, subscription tier restructuring, hardware product refreshes, streaming service content shifts. Anywhere customers discuss products publicly, synthetic twins can predict reactions.</p>
         </div>

@@ -217,7 +217,7 @@ a:hover {
 .hero-author {
   font-size: 13px;
   font-weight: 500;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   letter-spacing: 2px;
   text-transform: uppercase;
   opacity: 0;
@@ -651,9 +651,14 @@ a:hover {
 .persona-detail-row {
   display: flex;
   justify-content: space-between;
+  gap: 12px;
   padding: 5px 0;
   font-size: 13px;
   border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+
+.detail-value {
+  text-align: right;
 }
 
 .persona-detail-row:last-child { border-bottom: none; }
@@ -680,6 +685,18 @@ a:hover {
   margin-bottom: 0;
   background: none;
   border-radius: 0;
+}
+
+.persona-quote::before {
+  content: 'From their Reddit post history';
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accent-gold);
+  opacity: 0.5;
+  margin-bottom: 6px;
 }
 
 .persona-quote p {

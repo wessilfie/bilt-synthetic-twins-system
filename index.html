@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Synthetic Twins — Could AI Have Predicted Bilt's 2.0 Launch Disaster?</title>
+  <title>Synthetic Twins: Could AI Have Predicted Bilt's 2.0 Launch Disaster?</title>
   <meta name="description" content="A framework for using Reddit data and GenAI to build synthetic customer personas that predict how online communities react to product launches." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +40,7 @@
       <!-- Photo Grid -->
       <div class="photo-grid reveal">
         <div class="photo-card">
-          <img src="/img/will-ankur.JPG" alt="Will Essilfie with Ankur Jain, CEO of Bilt Rewards, at the Bilt 2.0 launch event" class="event-photo" />
+          <img src="/img/IMG_8924.JPG" alt="Will Essilfie with Ankur Jain, CEO of Bilt Rewards, at the Bilt 2.0 launch event" class="event-photo" />
           <p class="photo-caption">With Ankur Jain, CEO of Bilt, at the 2.0 launch event. One World Trade Center, January 2026.</p>
         </div>
         <div class="photo-card">
@@ -268,7 +268,7 @@
       <!-- Persona Carousel -->
       <h3 class="subsection-title reveal">Meet the Personas</h3>
       <div class="content-block reveal">
-        <p>We built personas from three different Reddit communities to get diversity of thought, community size, and user backgrounds: <strong>r/biltrewards</strong> (Bilt users), <strong>r/amex</strong> (American Express users), and <strong>r/Venturex</strong> (Capital One Venture X users). Each persona is rooted in real posts, real frustrations, and real product relationships.</p>
+        <p>I built 60 user personas, 30 per each year of data (2024 and 2025), to understand how these personas and what mattered to them changed over time. Rather than focusing solely on r/biltrewards, I manually pulled in similar subreddits to broaden the analysis across three different Reddit communities: <strong>r/biltrewards</strong> (Bilt users), <strong>r/amex</strong> (American Express users), and <strong>r/Venturex</strong> (Capital One Venture X users). This gave diversity of thought, community size, and user backgrounds. Each persona is rooted in real posts, real frustrations, and real product relationships.</p>
       </div>
 
       <!-- Community filter tabs -->
@@ -761,7 +761,7 @@
 
       <blockquote class="pull-quote reveal">
         <p>"We're on track for a record month of new card applicants — already 1.5x our biggest month of new applicants on the prior Bilt Card 1.0."</p>
-        <cite>Ankur Jain, CEO of Bilt Rewards — email to Bilt members, February 2026</cite>
+        <cite>Ankur Jain, CEO of Bilt Rewards, email to Bilt members, February 2026</cite>
       </blockquote>
     </div>
   </section>
@@ -793,12 +793,12 @@
         </div>
         <div class="scenario-card" style="border-color: rgba(34,197,94,0.3);">
           <h4 style="color: var(--accent-green);">How it could have been framed</h4>
-          <ul class="scenario-changes">
+          <ol class="scenario-changes">
             <li>This is now a card you want to use for everything, not just rent</li>
             <li>Still the only card on the market that makes it easy to earn points on rent without the higher fees other options charge</li>
             <li>Still no annual fee. Still earn on rent. Now also earn 4% Bilt Cash on everyday spend</li>
             <li>One free card with everything you have today, plus optional premium tiers for power users</li>
-          </ul>
+          </ol>
         </div>
       </div>
 
@@ -872,16 +872,17 @@
             <tr><th></th><th>Codex / Codex-5.2</th><th>Claude Code / Opus 4.5</th></tr>
           </thead>
           <tbody>
-            <tr><td>Persona names</td><td class="cell-bad">All named "Alex Morgan"</td><td class="cell-good">30 unique, diverse names</td></tr>
-            <tr><td>Interview responses</td><td class="cell-bad">Identical across all 30</td><td class="cell-good">Unique, in-character</td></tr>
-            <tr><td>Segment insights</td><td class="cell-bad">None (one data point repeated 30x)</td><td class="cell-good">Income, tenure, brand-specific</td></tr>
-            <tr><td>Secondary concerns</td><td class="cell-bad">Not surfaced</td><td class="cell-good">Credit history, platform risk</td></tr>
+            <tr><td>Persona names</td><td class="cell-bad">Same 10 names recycled across every card and year</td><td class="cell-good">Unique, culturally diverse names per set</td></tr>
+            <tr><td>Writing style</td><td class="cell-bad">Keyword tags and bullet points, analytical but formulaic</td><td class="cell-good">Full narrative prose, distinct voice per persona</td></tr>
+            <tr><td>Field variation</td><td class="cell-bad">~70% of fields copy-pasted across all personas</td><td class="cell-good">100% of fields custom-written per persona</td></tr>
+            <tr><td>Card specificity</td><td class="cell-bad">Generic template applied to all cards (e.g. "lounge access" listed for Bilt)</td><td class="cell-good">Product-specific details (rent day bonuses, Schwab cash-out, transfer partners)</td></tr>
+            <tr><td>Analytical depth</td><td class="cell-neutral">Got straight to the point, structured and direct</td><td class="cell-good">Richer behavioral context, specific dollar figures, event timelines</td></tr>
           </tbody>
         </table>
       </div>
 
       <div class="content-block reveal">
-        <p>Codex produced structurally complete outputs, but every persona gave the same answer. With 30 identical responses, the framework generates a single data point disguised as consensus. Claude Code's personas, by contrast, revealed which customer segments were most at risk and surfaced concerns the product team had not anticipated.</p>
+        <p>Codex produced structurally complete outputs and got straight to the point. Its personas were analytical and direct, which makes sense given how that model is trained. But the analysis was formulaic: the same 10 gender-neutral names recycled across every card product and year, most fields filled with identical keyword tags regardless of the persona, and a generic template that listed "lounge access" as a benefit for Bilt cardholders (Bilt has no lounge benefit). Claude Code's personas, by contrast, were more imaginative. Each one read like a distinct person with a unique voice, specific product knowledge, and internally consistent financial behaviors. That richness is what made it possible to identify which customer segments were most at risk and surface concerns the product team had not anticipated.</p>
       </div>
 
       <div class="content-block reveal">
@@ -1094,6 +1095,7 @@
           <li><a href="https://www.reddit.com/r/pushshift/comments/1r5z42j/separate_dump_files_for_the_top_40k_subreddits/" target="_blank" rel="noopener">Pushshift Dump Files</a> — r/pushshift</li>
           <li><a href="https://business.columbia.edu/faculty/people/george-zhida-gui" target="_blank" rel="noopener">Professor George Gui</a> — Columbia Business School, for teaching me about synthetic twins research</li>
           <li><a href="https://www.bloomberg.com/news/features/2026-02-05/bilt-2-0-credit-cards-tweaked-after-new-rewards-calculations-irk-customers" target="_blank" rel="noopener">Bilt 2.0 Credit Cards Tweaked After New Rewards Calculations Irk Customers</a> — Bloomberg</li>
+          <li><a href="https://www.wsj.com/finance/banking/wells-fargo-plans-to-exit-a-credit-card-program-that-gave-rewards-for-rent-336dae4b" target="_blank" rel="noopener">Wells Fargo Plans to Exit a Credit Card Program That Gave Rewards for Rent</a> — Wall Street Journal</li>
         </ul>
       </div>
     </div>

@@ -1189,12 +1189,17 @@ a:hover {
 }
 
 .cell-bad {
-  color: var(--accent-red);
+  color: var(--text-secondary);
   font-weight: 600;
 }
 
 .cell-good {
-  color: var(--accent-green);
+  color: var(--accent-blue);
+  font-weight: 600;
+}
+
+.cell-neutral {
+  color: var(--text-secondary);
   font-weight: 600;
 }
 
@@ -1417,7 +1422,11 @@ a:hover {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
-  body { font-size: 16px; }
+  body {
+    font-size: 16px;
+    background-attachment: scroll;
+    background-size: auto 100vh;
+  }
 
   .section { padding: 80px 0; }
 

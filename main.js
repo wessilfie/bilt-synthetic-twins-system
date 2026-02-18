@@ -284,7 +284,7 @@ function initChart(id) {
       new Chart(ctx, {
         type: 'bar',
         data: {
-          labels: ['Synthetic Twins (once built)', 'User Surveys', 'Focus Groups / Live Calls'],
+          labels: [['Synthetic Twins', '(once built)'], 'User Surveys', ['Focus Groups /', 'Live Calls']],
           datasets: [{
             data: [2, 336, 504],
             backgroundColor: [greenColor, grayColor, grayColor],
@@ -322,7 +322,7 @@ function initChart(id) {
             },
             y: {
               grid: { display: false },
-              ticks: { font: { weight: '600', size: 13 } }
+              ticks: { font: { weight: '600', size: window.innerWidth < 600 ? 11 : 13 } }
             }
           },
           animation: { duration: 1500, easing: 'easeOutQuart' }

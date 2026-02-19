@@ -193,9 +193,7 @@ function initChart(id) {
             {
               label: 'After Reddit',
               data: [1.67, 1.47, 1.27, 2.77, 2.60, 2.33],
-              backgroundColor: function(context) {
-                return context.dataIndex < 3 ? 'rgba(239,68,68,0.75)' : 'rgba(59,130,246,0.7)';
-              },
+              backgroundColor: 'rgba(255,69,0,0.8)',
               borderRadius: 4,
               maxBarThickness: 40,
             }
@@ -239,14 +237,16 @@ function initChart(id) {
             {
               label: 'Before Reddit (R1)',
               data: [12, 1, 2, 15],
-              backgroundColor: 'rgba(59,130,246,0.7)',
+              backgroundColor: 'rgba(255,255,255,0.15)',
+              borderColor: 'rgba(255,255,255,0.25)',
+              borderWidth: 1,
               borderRadius: 4,
               maxBarThickness: 50,
             },
             {
               label: 'After Reddit (R2)',
               data: [7, 0, 0, 23],
-              backgroundColor: 'rgba(239,68,68,0.7)',
+              backgroundColor: 'rgba(255,69,0,0.8)',
               borderRadius: 4,
               maxBarThickness: 50,
             }

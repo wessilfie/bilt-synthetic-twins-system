@@ -9,7 +9,7 @@
   --bg-card-border: rgba(255,255,255,0.06);
   --text-primary: #e8e8ed;
   --text-secondary: #9ba1b5;
-  --text-muted: #555970;
+  --text-muted: #7a7f96;
   --accent-gold: #edd496;
   --accent-blue: #3b82f6;
   --accent-green: #22c55e;
@@ -217,7 +217,7 @@ a:hover {
 .hero-author {
   font-size: 13px;
   font-weight: 500;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   letter-spacing: 2px;
   text-transform: uppercase;
   opacity: 0;
@@ -244,15 +244,15 @@ a:hover {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   font-weight: 500;
 }
 
 .scroll-arrow {
   width: 16px;
   height: 16px;
-  border-right: 1.5px solid var(--text-muted);
-  border-bottom: 1.5px solid var(--text-muted);
+  border-right: 1.5px solid var(--text-secondary);
+  border-bottom: 1.5px solid var(--text-secondary);
   transform: rotate(45deg);
   animation: scroll-bounce 2.4s ease infinite;
 }
@@ -510,6 +510,32 @@ a:hover {
   font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.65;
+}
+
+.quiz-scroll-hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+.quiz-scroll-hint span {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.quiz-scroll-arrow {
+  width: 14px;
+  height: 14px;
+  border-right: 1.5px solid var(--text-secondary);
+  border-bottom: 1.5px solid var(--text-secondary);
+  transform: rotate(45deg);
+  animation: scroll-bounce 2.4s ease infinite;
 }
 
 .reddit-upvotes {

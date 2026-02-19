@@ -336,3 +336,8 @@ function initChart(id) {
 document.querySelector('.scroll-indicator')?.addEventListener('click', () => {
   document.getElementById('disaster')?.scrollIntoView({ behavior: 'smooth' });
 });
+
+// ===== QUIZ SCROLL HINT =====
+document.querySelector('.quiz-scroll-hint')?.addEventListener('click', () => {
+  document.getElementById('synthetic-twins')?.scrollIntoView({ behavior: 'smooth' });
+});

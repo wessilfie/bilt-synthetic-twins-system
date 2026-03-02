@@ -1664,3 +1664,70 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255,255,255,0.15);
 }
+
+/* ===== SUBSTACK CTA ===== */
+.substack-cta {
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.substack-card {
+  max-width: 560px;
+  margin: 0 auto;
+  background: rgba(237,212,150,0.04);
+  border: 1px solid rgba(237,212,150,0.18);
+  border-radius: 16px;
+  padding: 56px 48px;
+}
+
+.substack-eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent-gold);
+  margin-bottom: 16px;
+}
+
+.substack-heading {
+  font-size: clamp(24px, 3.5vw, 34px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.substack-body {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 32px;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.substack-btn {
+  display: inline-block;
+  background: var(--accent-gold);
+  color: #0a0a1a;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.substack-btn:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+  .substack-card {
+    padding: 40px 28px;
+  }
+}
